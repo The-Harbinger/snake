@@ -3,6 +3,7 @@ function Fruit({ canvas, ctx }) {
   this.y = Math.floor(Math.random() * canvas.height);
   this.scale = 5;
   this.color = "#ffffff";
+  
 
   this.draw = () => {
     ctx.fillStyle = this.color;
