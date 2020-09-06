@@ -4,7 +4,6 @@ function Fruit({ canvas, ctx }) {
   this.scale = 5;
   this.color = "#ffffff";
   
-
   this.draw = () => {
     ctx.fillStyle = this.color;
     ctx.fillRect(this.x, this.y, this.scale, this.scale);
