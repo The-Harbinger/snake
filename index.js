@@ -6,7 +6,6 @@ window.onload = function () {
   ctx.rect(0, 0, canvas.width, canvas.height);
   ctx.stroke();
   
-
   const game = new Game();
   const snake = new Snake({ canvas, ctx });
   const fruit = new Fruit({ canvas, ctx });
