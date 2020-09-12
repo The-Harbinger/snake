@@ -13,6 +13,7 @@ window.onload = function () {
   window.addEventListener("keydown", (event) => {
     snake.changeDirection(event.key);
   });
+  
 
   const gameloop = setInterval(() => {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
